@@ -1,0 +1,19 @@
+application: yoreminder
+version: 2
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /images
+  static_dir: static/imgs
+- url: /css
+  static_dir: static/css
+- url: /.*  
+  script: main.app
+
+libraries:
+- name: webapp2
+  version: latest
+- name: jinja2
+  version: latest
