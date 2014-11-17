@@ -1,0 +1,8 @@
+# This is the apikeys.py
+
+APIDATA = {
+           YOINANHOUR_CALLBACK: (YOINANHOUR, 60*60),
+           YOIN30MIN_CALLBACK: (YOIN30MIN,  30*60),
+           YOIN15MIN_CALLBACK: (YOIN15MIN,  15*60),
+           YOIN5MIN_CALLBACK: (YOIN5MIN, 5*60),
+     
